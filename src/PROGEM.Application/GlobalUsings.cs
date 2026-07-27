@@ -1,0 +1,15 @@
+global using PROGEM.Application.Commands;
+global using PROGEM.Application.DTOs;
+global using PROGEM.Application.Handlers;
+global using PROGEM.Application.Interfaces;
+global using PROGEM.Application.Mappings;
+global using PROGEM.Application.Queries;
+global using PROGEM.Application.Validators;
+global using PROGEM.Domain.Entities;
+global using PROGEM.Domain.Enums;
+global using PROGEM.Domain.Interfaces;
+global using PROGEM.Domain.ValueObjects;
+global using PROGEM.Shared;
+global using AutoMapper;
+global using MediatR;
+global using FluentValidation;

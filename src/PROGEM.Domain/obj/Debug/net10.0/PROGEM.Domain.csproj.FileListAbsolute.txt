@@ -1,0 +1,11 @@
+C:\Users\julianalo\Documents\SistemaGerenciamentoManual\src\PROGEM.Domain\obj\Debug\net10.0\PROGEM.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\julianalo\Documents\SistemaGerenciamentoManual\src\PROGEM.Domain\obj\Debug\net10.0\PROGEM.Domain.AssemblyInfoInputs.cache
+C:\Users\julianalo\Documents\SistemaGerenciamentoManual\src\PROGEM.Domain\obj\Debug\net10.0\PROGEM.Domain.AssemblyInfo.cs
+C:\Users\julianalo\Documents\SistemaGerenciamentoManual\src\PROGEM.Domain\obj\Debug\net10.0\PROGEM.Domain.csproj.CoreCompileInputs.cache
+C:\Users\julianalo\Documents\SistemaGerenciamentoManual\src\PROGEM.Domain\bin\Debug\net10.0\PROGEM.Domain.deps.json
+C:\Users\julianalo\Documents\SistemaGerenciamentoManual\src\PROGEM.Domain\bin\Debug\net10.0\PROGEM.Domain.dll
+C:\Users\julianalo\Documents\SistemaGerenciamentoManual\src\PROGEM.Domain\bin\Debug\net10.0\PROGEM.Domain.pdb
+C:\Users\julianalo\Documents\SistemaGerenciamentoManual\src\PROGEM.Domain\obj\Debug\net10.0\PROGEM.Domain.dll
+C:\Users\julianalo\Documents\SistemaGerenciamentoManual\src\PROGEM.Domain\obj\Debug\net10.0\refint\PROGEM.Domain.dll
+C:\Users\julianalo\Documents\SistemaGerenciamentoManual\src\PROGEM.Domain\obj\Debug\net10.0\PROGEM.Domain.pdb
+C:\Users\julianalo\Documents\SistemaGerenciamentoManual\src\PROGEM.Domain\obj\Debug\net10.0\ref\PROGEM.Domain.dll

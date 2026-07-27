@@ -1,0 +1,17 @@
+C:\Users\julianalo\Documents\SistemaGerenciamentoManual\src\PROGEM.Application\obj\Debug\net10.0\PROGEM.Application.csproj.AssemblyReference.cache
+C:\Users\julianalo\Documents\SistemaGerenciamentoManual\src\PROGEM.Application\obj\Debug\net10.0\PROGEM.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\julianalo\Documents\SistemaGerenciamentoManual\src\PROGEM.Application\obj\Debug\net10.0\PROGEM.Application.AssemblyInfoInputs.cache
+C:\Users\julianalo\Documents\SistemaGerenciamentoManual\src\PROGEM.Application\obj\Debug\net10.0\PROGEM.Application.AssemblyInfo.cs
+C:\Users\julianalo\Documents\SistemaGerenciamentoManual\src\PROGEM.Application\obj\Debug\net10.0\PROGEM.Application.csproj.CoreCompileInputs.cache
+C:\Users\julianalo\Documents\SistemaGerenciamentoManual\src\PROGEM.Application\bin\Debug\net10.0\PROGEM.Application.deps.json
+C:\Users\julianalo\Documents\SistemaGerenciamentoManual\src\PROGEM.Application\bin\Debug\net10.0\PROGEM.Application.dll
+C:\Users\julianalo\Documents\SistemaGerenciamentoManual\src\PROGEM.Application\bin\Debug\net10.0\PROGEM.Application.pdb
+C:\Users\julianalo\Documents\SistemaGerenciamentoManual\src\PROGEM.Application\bin\Debug\net10.0\PROGEM.Domain.dll
+C:\Users\julianalo\Documents\SistemaGerenciamentoManual\src\PROGEM.Application\bin\Debug\net10.0\PROGEM.Shared.dll
+C:\Users\julianalo\Documents\SistemaGerenciamentoManual\src\PROGEM.Application\bin\Debug\net10.0\PROGEM.Domain.pdb
+C:\Users\julianalo\Documents\SistemaGerenciamentoManual\src\PROGEM.Application\bin\Debug\net10.0\PROGEM.Shared.pdb
+C:\Users\julianalo\Documents\SistemaGerenciamentoManual\src\PROGEM.Application\obj\Debug\net10.0\PROGEM.A.C896D2C8.Up2Date
+C:\Users\julianalo\Documents\SistemaGerenciamentoManual\src\PROGEM.Application\obj\Debug\net10.0\PROGEM.Application.dll
+C:\Users\julianalo\Documents\SistemaGerenciamentoManual\src\PROGEM.Application\obj\Debug\net10.0\refint\PROGEM.Application.dll
+C:\Users\julianalo\Documents\SistemaGerenciamentoManual\src\PROGEM.Application\obj\Debug\net10.0\PROGEM.Application.pdb
+C:\Users\julianalo\Documents\SistemaGerenciamentoManual\src\PROGEM.Application\obj\Debug\net10.0\ref\PROGEM.Application.dll

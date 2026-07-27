@@ -1,0 +1,25 @@
+@mixin media-breakpoint-up($breakpoint) {
+  @if $breakpoint == lg {
+    @media (min-width: 992px) { @content; }
+  }
+  @else if $breakpoint == md {
+    @media (min-width: 768px) { @content; }
+  }
+  @else if $breakpoint == sm {
+    @media (min-width: 576px) { @content; }
+  }
+}
+
+@mixin sidebar-transition {
+  transition: all $transition-speed ease-in-out;
+}
+
+@mixin card-shadow {
+  box-shadow: $box-shadow;
+  border: none;
+  border-radius: $border-radius;
+}
+
+@mixin button-transition {
+  transition: all 0.15s ease-in-out;
+}

@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="PROGEM.Domain/PROGEM.Domain.csproj" />
+  <Project Path="PROGEM.Shared/PROGEM.Shared.csproj" />
+  <Project Path="PROGEM.Web/PROGEM.Web.csproj" />
+</Solution>

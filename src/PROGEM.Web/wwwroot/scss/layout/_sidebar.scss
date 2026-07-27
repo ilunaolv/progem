@@ -1,0 +1,87 @@
+.sidebar {
+  width: $sidebar-width;
+  background: linear-gradient(180deg, #4e73df 0%, #224abe 100%);
+  min-height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1030;
+  transition: all 0.3s;
+  overflow-y: auto;
+
+  &-brand {
+    color: white;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+
+  &-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    .nav-item {
+      a {
+        color: rgba(255,255,255,0.8);
+        padding: 0.75rem 1rem;
+        display: block;
+        border-left: 3px solid transparent;
+        transition: all 0.15s ease;
+
+        &:hover {
+          color: white;
+          background: rgba(255,255,255,0.1);
+          border-left-color: rgba(255,255,255,0.5);
+        }
+
+        &.active {
+          color: white;
+          border-left-color: white;
+          background: rgba(255,255,255,0.15);
+        }
+      }
+    }
+  }
+
+  &-collapsed {
+    width: 0;
+    overflow: hidden;
+  }
+}
+
+.main-content {
+  flex: 1;
+  margin-left: $sidebar-width;
+  transition: margin-left 0.3s;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: $header-height;
+  background: white;
+  border-bottom: 1px solid #e3e6f0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+}
+
+.footer {
+  background: white;
+  border-top: 1px solid #e3e6f0;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: $secondary;
+  margin-top: auto;
+}

@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Serilog.AspNetCore" Version="8.0.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="5.0.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+    <PackageReference Include="Serilog.Sinks.MySQL" Version="2.1.5" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.0.1" />
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PROGEM.Application\PROGEM.Application.csproj" />
+    <ProjectReference Include="..\PROGEM.Domain\PROGEM.Domain.csproj" />
+    <ProjectReference Include="..\PROGEM.Persistence\PROGEM.Persistence.csproj" />
+    <ProjectReference Include="..\PROGEM.Shared\PROGEM.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - PROGEM</title>
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="stylesheet" href="/css/site.css" />
+    <link rel="icon" type="image/png" href="/icons/icon-192x192.png" />
+</head>
+<body>
+    <div id="app">
+        <aside class="sidebar" id="sidebar" role="navigation" aria-label="Menu principal">
+            <div class="sidebar-brand">PROGEM</div>
+            <ul class="sidebar-menu">
+                <li class="nav-item"><a href="/" class="active">Dashboard</a></li>
+                <li class="nav-item"><a href="/processos">Processos</a></li>
+                <li class="nav-item"><a href="/servidores">Servidores</a></li>
+                <li class="nav-item"><a href="/relatorios">Relatorios</a></li>
+            </ul>
+        </aside>
+        <main class="main-content" role="main">
+            <header class="header">
+                <button id="sidebar-toggle" class="btn btn-sm btn-outline-primary" aria-label="Toggle menu">
+                    <i class="bi bi-list"></i>
+                </button>
+                <span>@ViewData["Title"]</span>
+                <div>
+                    <a href="/login" class="btn btn-sm btn-outline-secondary">Sair</a>
+                </div>
+            </header>
+            <div class="p-4">
+                @RenderBody()
+            </div>
+            <footer class="footer">
+                &copy; 2026 PROGEM - Procuradoria Geral do Municipio
+            </footer>
+        </main>
+    </div>
+
+    <div id="toast-container"></div>
+
+    <script type="module" src="/js/main.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

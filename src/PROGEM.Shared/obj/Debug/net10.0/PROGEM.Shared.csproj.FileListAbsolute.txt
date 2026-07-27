@@ -1,0 +1,11 @@
+C:\Users\julianalo\Documents\SistemaGerenciamentoManual\src\PROGEM.Shared\bin\Debug\net10.0\PROGEM.Shared.deps.json
+C:\Users\julianalo\Documents\SistemaGerenciamentoManual\src\PROGEM.Shared\bin\Debug\net10.0\PROGEM.Shared.dll
+C:\Users\julianalo\Documents\SistemaGerenciamentoManual\src\PROGEM.Shared\bin\Debug\net10.0\PROGEM.Shared.pdb
+C:\Users\julianalo\Documents\SistemaGerenciamentoManual\src\PROGEM.Shared\obj\Debug\net10.0\PROGEM.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\julianalo\Documents\SistemaGerenciamentoManual\src\PROGEM.Shared\obj\Debug\net10.0\PROGEM.Shared.AssemblyInfoInputs.cache
+C:\Users\julianalo\Documents\SistemaGerenciamentoManual\src\PROGEM.Shared\obj\Debug\net10.0\PROGEM.Shared.AssemblyInfo.cs
+C:\Users\julianalo\Documents\SistemaGerenciamentoManual\src\PROGEM.Shared\obj\Debug\net10.0\PROGEM.Shared.csproj.CoreCompileInputs.cache
+C:\Users\julianalo\Documents\SistemaGerenciamentoManual\src\PROGEM.Shared\obj\Debug\net10.0\PROGEM.Shared.dll
+C:\Users\julianalo\Documents\SistemaGerenciamentoManual\src\PROGEM.Shared\obj\Debug\net10.0\refint\PROGEM.Shared.dll
+C:\Users\julianalo\Documents\SistemaGerenciamentoManual\src\PROGEM.Shared\obj\Debug\net10.0\PROGEM.Shared.pdb
+C:\Users\julianalo\Documents\SistemaGerenciamentoManual\src\PROGEM.Shared\obj\Debug\net10.0\ref\PROGEM.Shared.dll

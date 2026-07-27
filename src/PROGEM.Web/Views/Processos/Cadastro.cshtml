@@ -1,0 +1,94 @@
+@{
+    ViewData["Title"] = "Cadastro de Processo - PROGEM";
+}
+
+<div class="container-fluid">
+    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 mb-0 text-gray-800">Cadastro de Processo</h1>
+    </div>
+
+    <div class="card shadow mb-4">
+        <div class="card-body">
+            <form id="form-processo" novalidate>
+                <div class="form-row">
+                    <div class="form-group col-md-4">
+                        <label for="numero">Numero do Processo</label>
+                        <input type="text" class="form-control" id="numero" name="numero" required maxlength="20" />
+                        <div class="invalid-feedback">Numero is required (4-20 chars).</div>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="ano">Ano</label>
+                        <input type="number" class="form-control" id="ano" name="ano" required min="2000" max="2100" />
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label for="codigo">Codigo</label>
+                        <input type="text" class="form-control" id="codigo" name="codigo" maxlength="50" />
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-md-4">
+                        <label for="natureza">Natureza</label>
+                        <select class="form-control" id="natureza" name="natureza" required>
+                            <option value="">Selecione...</option>
+                            <option value="0">Preliminar</option>
+                            <option value="1">Sindicancia</option>
+                            <option value="2">Inquisito</option>
+                            <option value="3">Sumario</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="categoria">Categoria</label>
+                        <select class="form-control" id="categoria" name="categoria" required>
+                            <option value="">Selecione...</option>
+                            <option value="0">Dano ao Erario</option>
+                            <option value="1">Infracao Disciplinar</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="subcategoria">Subcategoria</label>
+                        <select class="form-control" id="subcategoria" name="subcategoria" required></select>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="requerente">Requerente</label>
+                        <input type="text" class="form-control" id="requerente" name="requerente" required maxlength="200" />
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="local">Local</label>
+                        <input type="text" class="form-control" id="local" name="local" required maxlength="200" />
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-md-4">
+                        <label for="tipo">Tipo</label>
+                        <select class="form-control" id="tipo" name="tipo">
+                            <option value="0">Administrativo</option>
+                            <option value="1">Penalidade</option>
+                            <option value="2">Sindicancia</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="data-irregularidade">Data da Irregularidade</label>
+                        <input type="date" class="form-control" id="data-irregularidade" name="dataIrregularidade" required />
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="assunto">Assunto</label>
+                        <input type="text" class="form-control" id="assunto" name="assunto" required maxlength="500" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="observacoes">Observacoes</label>
+                    <textarea class="form-control" id="observacoes" name="observacoes" rows="3" maxlength="2000"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Salvar</button>
+                <a href="/processos" class="btn btn-secondary">Cancelar</a>
+            </form>
+        </div>
+    </div>
+</div>

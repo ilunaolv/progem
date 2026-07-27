@@ -1,0 +1,66 @@
+@{
+    ViewData["Title"] = "Processos - PROGEM";
+}
+
+<div class="container-fluid">
+    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 mb-0 text-gray-800">Processos Administrativos</h1>
+        <a href="/processos/novo" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
+            <i class="fas fa-plus fa-sm text-white-50"></i> Novo Processo
+        </a>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-md-4">
+            <input type="text" id="search-input" class="form-control" placeholder="Pesquisar..." aria-label="Pesquisar processos" />
+        </div>
+        <div class="col-md-3">
+            <select id="filtro-natureza" class="form-control" aria-label="Filtrar por natureza">
+                <option value="">Todas as Naturezas</option>
+                <option value="0">Preliminar</option>
+                <option value="1">Sindicancia</option>
+                <option value="2">Inquisito</option>
+                <option value="3">Sumario</option>
+            </select>
+        </div>
+        <div class="col-md-3">
+            <select id="filtro-status" class="form-control" aria-label="Filtrar por status">
+                <option value="">Todos os Status</option>
+                <option value="0">Preliminar</option>
+                <option value="1">Portaria</option>
+                <option value="2">Sindicancia</option>
+                <option value="3">Inquisito</option>
+                <option value="4">Sumario</option>
+                <option value="6">Concluso</option>
+                <option value="7">Arquivado</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="card shadow mb-4">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="processos-table" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Numero</th>
+                            <th>Ano</th>
+                            <th>Natureza</th>
+                            <th>Categoria</th>
+                            <th>Requerente</th>
+                            <th>Status</th>
+                            <th>Acoes</th>
+                        </tr>
+                    </thead>
+                    <tbody id="processos-tbody">
+                    </tbody>
+                </table>
+            </div>
+            <nav aria-label="Paginacao">
+                <ul class="pagination justify-content-center" id="pagination">
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
