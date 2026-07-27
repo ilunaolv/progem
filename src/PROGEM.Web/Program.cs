@@ -105,11 +105,17 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Dashboard}/{action=Index}/{id?}");
 
-using (var scope = app.Services.CreateScope())
+try
 {
-    var context = scope.ServiceProvider.GetRequiredService<PROGEMDbContext>();
-    await context.Database.MigrateAsync();
-    await SeedData.SeedAsync(context);
+    using (var scope = app.Services.CreateScope())
+    {
+        var context = scope.ServiceProvider.GetRequiredService<PROGEMDbContext>();
+        await context.Database.MigrateAsync();
+        await SeedData.SeedAsync(context);
+    }
+}
+catch
+{
 }
 
 app.Run();
